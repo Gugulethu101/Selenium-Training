@@ -1,0 +1,30 @@
+package Demo.Facebook;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class FacebookLogin {
+	
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
+		// Launch chrome
+		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.facebook.com");
+		driver.findElement(By.name("email")).sendKeys("0791177242");
+		
+		 driver.findElement(By.xpath("//*[@id='pass']")).sendKeys("gugu1984");
+		 driver.findElement(By.xpath("//*[@id='u_0_b']")).click();
+				 
+		 String pageTitle = driver.getTitle(); 
+		 System.out.println(pageTitle);
+		 if(pageTitle.equals("Facebook – log in or sign up")) {
+		 System.out.println("Title Verified"); 
+		 } 
+		 else {
+		 System.out.println("Incorrect Titlesoft"); } 
+		 
+	} // end if
+
+} // end WE

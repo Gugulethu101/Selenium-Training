@@ -1,0 +1,16 @@
+package Demo.Facebook;
+
+
+import org.openqa.selenium.WebDriver;
+
+
+public class BackAndForwardPages {
+	System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
+	// Launch Chrome
+	Webdriver driver = newChromeDriver ();
+	driver.get("https://www.facebook.com");
+	
+	//Switch to a different url
+	driver.navigate().to(https://www.google.com/);
+	driver.navigate().back();
+}

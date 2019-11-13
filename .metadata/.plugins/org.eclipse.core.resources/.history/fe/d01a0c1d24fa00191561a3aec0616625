@@ -1,0 +1,43 @@
+package appdemo;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class HotelApp {
+	
+	public static void main(String[] args) {
+		System.setProperty("Webdriver.driver.chrome", "./chromedriver.exe");
+		
+		WebDriver driver = new ChromeDriver ();
+		driver.get("http://adactin.com/HotelApp/index.php"); //Step 1
+		System.out.println("Hey Hotel Login is displayed");
+		
+		//Enter the username
+		driver.findElement(By.name("username")).sendKeys("Gugulethu");
+		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("gugu1984");
+		driver.findElement(By.id("login")).click();
+		
+		//Select Location
+		Select location = new Select(driver.findElement(By.xpath("//*[@id=\'location\']")));
+		location.selectByVisibleText("Sydney");
+		
+		//Select Hotel
+		Select Hotel = new Select(driver.findElement(By.xpath("//*[@id='hotels']")));
+		Hotel.selectByVisibleText("Hotel Creek");
+		
+		//Select Room type
+		Select RoomType = new Select(driver.findElement(By.xpath("//*[@id='room_type']")));
+		RoomType.selectByVisibleText("Standard");
+		
+		//Select No of Rooms
+		Select NoOfRooms = new Select(driver.findElement(By.xpath("//*[@id='room_type']")));
+		NoOfRooms.selectByVisibleText("1");
+		
+		//Select date 
+		//Select Date = new Select(driver.findElement(By.xpath("//*[@id='datepick_in']")));
+		//Date.
+	}
+
+}
