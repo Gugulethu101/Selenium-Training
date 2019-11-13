@@ -1586,3 +1586,16 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2019-10-30 19:31:04,042 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
 2019-10-31 09:17:56,473 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2019-10-31 09:41:13,739 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-11-13 14:55:34,579 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-11-13 14:55:43,157 [Worker-4: Launching ErrorsValidation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-13 14:55:43,158 [Worker-4: Launching ErrorsValidation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gugu\eclipse-workspace\HRM\src\main\resources
+2019-11-13 14:55:43,160 [Worker-4: Launching ErrorsValidation] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-13 14:55:43,160 [Worker-4: Launching ErrorsValidation] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gugu\eclipse-workspace\HRM\src\test\resources
+2019-11-13 14:55:43,660 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-13 14:55:43,660 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gugu\eclipse-workspace\Facebook\src\main\resources
+2019-11-13 14:55:43,661 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-13 14:55:43,662 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gugu\eclipse-workspace\Facebook\src\test\resources
+2019-11-13 14:55:44,039 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-13 14:55:44,039 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gugu\eclipse-workspace\HotelApp\src\main\resources
+2019-11-13 14:55:44,040 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-13 14:55:44,041 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Gugu\eclipse-workspace\HotelApp\src\test\resources
